@@ -1,0 +1,44 @@
+body {
+    background-color: #343CB8;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+label {
+    color: whitesmoke;
+}
+
+textarea, input {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.header {
+    background-color: #3B3E66;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+#poprawa {
+    width: 300px;
+}
+
+.index {
+    background-color: #ef6c00;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}

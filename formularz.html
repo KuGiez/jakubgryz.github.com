@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./form.css">
+    <title>Formularz</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Formularz</h1>
+    </div>
+    
+
+    <div class="content">
+        <form action="mailto:jakub.gryz@tm1.edu.pl" method="POST">
+
+
+            <h2>Wiek</h2>
+            <label for="age">[opcjonalnie]</label><br><br>
+            <input type="number" name="age" id="age" min="0" max="100">
+            <br>
+
+            <h2>Na ile oceniasz naszą stronę?</h2> <br>
+            <input type="radio" id="1_gw" name="gwiazdki" value="1">
+            <label for="1_gw">1 gwiazdka</label>
+            <br>
+            <input type="radio" id="2_gw" name="gwiazdki" value="2">
+            <label for="2_gw">2 gwiazdki</label>
+            <br>
+            <input type="radio" id="3_gw" name="gwiazdki" value="3">
+            <label for="3_gw">3 gwiazdki</label>
+            <br>
+            <input type="radio" id="4_gw" name="gwiazdki" value="4">
+            <label for="4_gw">4 gwiazdki</label>
+            <br>
+            <input type="radio" id="5_gw" name="gwiazdki" value="5">
+            <label for="5_gw">5 gwiazdek</label>
+            <br>
+            <br>
+
+            <h2>Czy zrobiłbyś / zrobiłabyś tą stronę lepiej?</h2><br>
+            <input type="radio" id="tak" name="Ja_lepiej" value="tak">
+            <label for="tak">Tak</label>
+            <br>
+            <input type="radio" id="nie" name="Ja_lepiej" value="nie">
+            <label for="nie">Nie</label>
+
+            
+            <h2>Czy możemy coś poprawić?</h2><br>
+            <label for="poprawa">Jeśli tak to co?</label><br><br>
+            <input type="text" name="poprawa" id="poprawa">
+            <br>
+            <br>
+
+            <h2>Dodatkowe uwagi</h2><br>
+            <textarea id="opinia" name="opinia" cols="25" rows="7" maxlength="300">Wpisz tutaj...</textarea>
+
+
+            <br>
+            <input type="reset" value="Wyczyść" class="przycisk">
+
+            <input type="submit" value="Wyślij" onclick="alert('Dziękujemy!')" class="przycisk">
+
+        </form>
+    </div>
+
+
+    <br>
+    <a href="./index.html" class="index">Powrót</a><br><br><hr>
+    
+</body>
+</html>
